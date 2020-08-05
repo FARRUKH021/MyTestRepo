@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="NewLogin.jsf" id="d1">
+        <af:form id="f1">
+            <af:decorativeBox id="db1" dimensionsFrom="parent">
+                <f:facet name="center">
+                    <af:panelGridLayout id="pgl1" dimensionsFrom="parent">
+                        <af:gridRow marginTop="5px" height="250px" id="gr1" marginBottom="5px">
+                            <af:gridCell marginStart="5px" width="100%" marginEnd="5px" id="gc1"
+                                         styleClass="TopHeaderColor" halign="stretch" valign="stretch">
+                                <af:spacer width="10" height="10" id="s1"/>
+                            </af:gridCell>
+                        </af:gridRow>
+                        <af:gridRow marginTop="50px" height="auto" id="gr2" marginBottom="20px">
+                            <af:gridCell marginStart="5px" width="100%" marginEnd="5px" id="gc2" halign="stretch"
+                                         valign="stretch">
+                                <af:panelGroupLayout id="pgl2" layout="vertical" halign="center"
+                                                     styleClass="AFStretchWidth">
+                                    <af:inputText label="Label 1" id="it1" simple="true" value="User Name "
+                                                  columns="30"/>
+                                    <af:inputText label="Label 2" id="it2" simple="true" value="Password" columns="30"
+                                                  rows="1"/>
+                                    <af:link text="Can't access your account?" id="l1"/>
+                                    <f:facet name="separator">
+                                        <af:spacer width="10" height="10" id="s2"/>
+                                    </f:facet>
+                                </af:panelGroupLayout>
+                            </af:gridCell>
+                        </af:gridRow>
+                        <af:gridRow marginTop="5px" height="100px" marginBottom="5px" id="gr3">
+                            <af:gridCell marginStart="5px" width="100%" marginEnd="5px" id="gc3">
+                                <af:spacer width="10" height="10" id="s3"/>
+                            </af:gridCell>
+                        </af:gridRow>
+                    </af:panelGridLayout>
+                </f:facet>
+                <f:facet name="top"/>
+            </af:decorativeBox>
+        </af:form>
+    </af:document>
+</f:view>
