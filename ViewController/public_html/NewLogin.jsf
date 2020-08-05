@@ -17,7 +17,7 @@
                                          valign="stretch">
                                 <af:panelGroupLayout id="pgl2" layout="vertical" halign="center"
                                                      styleClass="AFStretchWidth">
-                                    <af:inputText label="Label 1" id="it1" simple="true" value="User Name "
+                                    <af:inputText label="Label 1" id="it1" simple="true" value="Login ID"
                                                   columns="30"/>
                                     <af:inputText label="Label 2" id="it2" simple="true" value="Password" columns="30"
                                                   rows="1"/>
